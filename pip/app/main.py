@@ -7,7 +7,7 @@ app = Flask(__name__, template_folder="../templates", static_folder="../static")
 def adder(a, b):
     a_float = float(a)
     b_float = float(b)
-    return str(a_float + b_float)
+    return a_float + b_float
 
 @app.route("/crash")
 def crash():
