@@ -79,10 +79,6 @@
 *.tiff
 *.tif
 
-# Scalable Vector Graphics
-*.svg
-*.svgz
-
 # Portable Document Format
 *.pdf
 
@@ -293,10 +289,6 @@ venv/
 # Tagged Image File Format
 *.tiff
 *.tif
-
-# Scalable Vector Graphics
-*.svg
-*.svgz
 
 # Portable Document Format
 *.pdf

@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #ecf0f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    background: linear-gradient(45deg, #e74c3c, #e67e22, #f1c40f);
+    padding: 40px;
+    margin: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.tech-icon {
+    width: 80px;
+    height: 80px;
+    fill: white;
+    filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.3));
+    transition: transform 0.3s ease;
+}
+
+.tech-icon:hover {
+    transform: scale(1.1);
+}
